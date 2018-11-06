@@ -1,7 +1,5 @@
 # -*- coding: utf-8 -*-
 
-# Learn more: https://github.com/kennethreitz/setup.py
-
 from setuptools import setup, find_packages
 
 
@@ -12,13 +10,13 @@ with open('LICENSE') as f:
     license = f.read()
 
 setup(
-    name='sample',
+    name='project_template',
     version='0.1.0',
-    description='Sample package for Python-Guide.org',
+    description='project_template',
     long_description=readme,
-    author='Kenneth Reitz',
+    author='Chris Kendzora',
     author_email='me@kennethreitz.com',
-    url='https://github.com/kennethreitz/samplemod',
+    url='https://github.com/fuzzywarbles/project_template',
     license=license,
     packages=find_packages(exclude=('tests', 'docs'))
 )
